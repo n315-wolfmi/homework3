@@ -1,31 +1,9 @@
+@include second-nav();
+
 .products-top {
     width: 100%;
     background-color: #000;
-    padding-bottom: 100px;
-
-    .products-nav {
-        height: 75px;
-        width: $content-width;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding-right: 500px;
-        margin-bottom: 75px;
-
-        .products-nav-header {
-            margin-top: 13px;
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-        }
-
-        a {
-            color: #7b7b7b;
-            text-decoration: none;
-            font-size: 17px;
-        }
-    }
+    padding: 75px 0; 
 
     .products-top-title {
         font-size: 45px;

@@ -1,0 +1,33 @@
+@include second-nav();
+
+.solutions-hero {
+    width: 100%;
+    min-height: 390px;
+    background-image: url("../images/solutions-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    .solutions-hero-info {
+        color: #fff;
+        width: 640px;
+        margin-left: 8%;
+        padding: 30px;
+
+        .solutions-hero-title {
+            font-size: 37px;
+            font-weight: bold;
+        }
+
+        .solutions-hero-subtitle {
+            font-size: 25px;
+            margin-bottom: 40px
+        }
+
+        .solutions-hero-button {
+            @include site-button();
+        }
+    }
+}

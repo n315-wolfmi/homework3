@@ -157,12 +157,10 @@ footer .footer_copy {
     margin-bottom: 20px;
   }
 }
-.products-top {
-  width: 100%;
+.second-nav-container {
   background-color: #000;
-  padding-bottom: 100px;
 }
-.products-top .products-nav {
+.second-nav-container .second-nav {
   height: 75px;
   width: 1333px;
   margin: 0 auto;
@@ -170,18 +168,23 @@ footer .footer_copy {
   align-items: center;
   justify-content: space-evenly;
   padding-right: 500px;
-  margin-bottom: 75px;
 }
-.products-top .products-nav .products-nav-header {
+.second-nav-container .second-nav .second-nav-header {
   margin-top: 13px;
   text-decoration: none;
   color: #fff;
   font-weight: bold;
 }
-.products-top .products-nav a {
+.second-nav-container .second-nav a {
   color: #7b7b7b;
   text-decoration: none;
   font-size: 17px;
+}
+
+.products-top {
+  width: 100%;
+  background-color: #000;
+  padding: 75px 0;
 }
 .products-top .products-top-title {
   font-size: 45px;
@@ -273,6 +276,92 @@ footer .footer_copy {
   .bottom-links-div {
     flex-direction: column;
   }
+}
+.second-nav-container {
+  background-color: #000;
+}
+.second-nav-container .second-nav {
+  height: 75px;
+  width: 1333px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 500px;
+}
+.second-nav-container .second-nav .second-nav-header {
+  margin-top: 13px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.second-nav-container .second-nav a {
+  color: #7b7b7b;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.solutions-hero {
+  width: 100%;
+  min-height: 390px;
+  background-image: url("../images/solutions-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.solutions-hero .solutions-hero-info {
+  color: #fff;
+  width: 640px;
+  margin-left: 8%;
+  padding: 30px;
+}
+.solutions-hero .solutions-hero-info .solutions-hero-title {
+  font-size: 37px;
+  font-weight: bold;
+}
+.solutions-hero .solutions-hero-info .solutions-hero-subtitle {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.solutions-hero .solutions-hero-info .solutions-hero-button {
+  padding: 12px 14px;
+  background-color: #76b900;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.solutions-bottom .solutions-bottom-info {
+  text-align: center;
+  max-width: 1070px;
+  font-size: 22px;
+  line-height: 40px;
+  margin: 90px auto 40px auto;
+  padding: 0 30px;
+}
+.solutions-bottom .img-div {
+  height: 479px;
+  width: 850px;
+  background-image: url(../images/solutions-video.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.solutions-bottom .img-desc {
+  width: 850px;
+  margin: 30px auto;
+}
+.solutions-bottom .img-desc .solutions-bottom-vidtitle {
+  font-size: 28px;
+  font-weight: bold;
+}
+.solutions-bottom .img-desc .solutions-bottom-subtitle {
+  color: #76b900;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
