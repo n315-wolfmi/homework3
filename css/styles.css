@@ -364,4 +364,73 @@ footer .footer_copy {
   font-weight: bold;
 }
 
+.ind-nav-container {
+  background-color: #000;
+}
+.ind-nav-container .ind-nav {
+  height: 75px;
+  width: 1333px;
+  display: flex;
+  align-items: center;
+  padding-left: 160px;
+}
+.ind-nav-container .ind-nav .ind-nav-header {
+  margin-top: 13px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.ind-nav-container .ind-nav a {
+  color: #7b7b7b;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.industries-hero {
+  height: 460px;
+  width: 100%;
+  background-image: url(../images/industries-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+}
+.industries-hero .ind-hero-title {
+  font-size: 35px;
+  color: #fff;
+  max-width: 515px;
+}
+
+.industries-bottom {
+  height: 570px;
+  max-width: 1070px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 95px 20px;
+}
+.industries-bottom .ind-bottom-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+.industries-bottom .ind-bottom-desc {
+  font-size: 22px;
+  line-height: 35px;
+}
+.industries-bottom .ind-buttons-container {
+  max-width: 540px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.industries-bottom .ind-buttons-container .ind-button {
+  padding: 12px 14px;
+  background-color: #76b900;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=styles.css.map */
