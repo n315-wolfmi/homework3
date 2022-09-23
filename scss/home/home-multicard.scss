@@ -13,7 +13,7 @@
         align-items: center;
         justify-content: space-evenly;
         margin: 0 auto;
-        width: 1275px;
+        max-width: 1275px;
 
         .multicard-card {
             height: 365px;
@@ -47,6 +47,17 @@
                     line-height: 22px;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .multicard-row {
+        flex-direction: column;
+        // width: ;
+
+        .multicard-card {
+            margin-bottom: 20px;
         }
     }
 }

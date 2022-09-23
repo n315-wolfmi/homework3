@@ -31,11 +31,7 @@
         }
 
         .infobox-button {
-            padding: 12px 14px;
-            background-color: $site-green;
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
+            @include site-button()
         }
     }
 }
