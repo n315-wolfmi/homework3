@@ -1,0 +1,64 @@
+@include second-nav();
+
+.foryou-hero {
+    min-height: 580px;
+    width: 100%;
+    background-image: url(../images/foyou-hero.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+
+    .foryou-hero-info {
+        color: #fff;
+        max-width: 512px;
+
+        .foryou-hero-title {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .foryou-hero-subtitle {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 50px
+        }
+    }
+}
+
+.foryou-bottom {
+    background-color: #000;
+    padding: 75px 0;
+
+    .foryou-card-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 1250px;
+        margin: 0 auto;
+
+        .foryou-card {
+            max-width: 282px;
+            min-height: 600px;
+
+            img {
+                height: 158px;
+            }
+
+            h2 {
+                color: #fff;
+                font-size: 28px;
+            }
+
+            p {
+                color: #fff;
+                line-height: 27px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.site-button {
+    @include site-button();
+}

@@ -65,7 +65,7 @@
         margin: 0 auto;
 
         .ind-button {
-            @include site-button()
+            @include site-button();
         }
     }
 }
