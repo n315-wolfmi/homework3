@@ -4,6 +4,7 @@ import * as MODEL from "./model.js"
 function route() {
     let hashtagLink = window.location.hash //get page from hashtag in url 
     let pageID = hashtagLink.replace("#", "")
+    console.log(pageID)
 
     //if there is nothing in the URL, default to the home page, otherwise pass the hash page in
     if(pageID == "") {

@@ -1,0 +1,38 @@
+footer {
+    height: 150px;
+    padding: 30px 190px;
+
+    .footer_top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        div {
+            font-weight: bold;
+            font-size: 17px;
+            color: #cccccc;
+        }
+    }
+
+    .footer_links {
+        width: 660px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: $site-gray;
+        margin-left: -10px;
+        margin-bottom: 10px;
+
+        a { 
+            text-decoration: none;
+            color: $site-gray;
+        }
+    }
+
+    .footer_copy {
+        color: $site-gray;
+        font-size: 13px;
+        margin-left: -3px;
+    }
+}

@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 780px;
+    padding: 10px 155px;
+
+    a {
+        text-decoration: none;
+        color: $site-gray;
+    }
+
+    a :hover {
+        color: #000;
+    }
+}
+
+.icon {
+    margin-right: 15px;
+    margin-top: 3px;
+
+    img {
+        height: 20px;
+    }
+}

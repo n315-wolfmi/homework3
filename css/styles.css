@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, Sans-Serif;
 }
 
 html, body {
@@ -10,6 +11,143 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 780px;
+  padding: 10px 155px;
+}
+nav a {
+  text-decoration: none;
+  color: #848484;
+}
+nav a :hover {
+  color: #000;
+}
+
+.icon {
+  margin-right: 15px;
+  margin-top: 3px;
+}
+.icon img {
+  height: 20px;
+}
+
+footer {
+  height: 150px;
+  padding: 30px 190px;
+}
+footer .footer_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+footer .footer_top div {
+  font-weight: bold;
+  font-size: 17px;
+  color: #cccccc;
+}
+footer .footer_links {
+  width: 660px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #848484;
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+footer .footer_links a {
+  text-decoration: none;
+  color: #848484;
+}
+footer .footer_copy {
+  color: #848484;
+  font-size: 13px;
+  margin-left: -3px;
+}
+
+.home-hero {
+  width: 100%;
+  min-height: 580px;
+  background-image: url("../images/home-hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.home-hero .infobox {
+  color: #fff;
+  width: 640px;
+  margin-left: 50%;
+  padding: 30px;
+}
+.home-hero .infobox .infobox-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+.home-hero .infobox .infobox-subtitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+.home-hero .infobox .infobox-desc {
+  font-size: 22px;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+.home-hero .infobox .infobox-button {
+  padding: 12px 14px;
+  background-color: #76b900;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.home-multicard {
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 60px 0;
+}
+.home-multicard h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.home-multicard .multicard-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 1275px;
+}
+.home-multicard .multicard-row .multicard-card {
+  height: 365px;
+  width: 295px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.home-multicard .multicard-row .multicard-card a img {
+  height: 45%;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+.home-multicard .multicard-row .multicard-card .multicard-bottom {
+  background-color: #fff;
+  height: 55%;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+  text-align: left;
+  padding: 20px 18px;
+}
+.home-multicard .multicard-row .multicard-card .multicard-bottom h2 {
+  font-size: 18px;
+}
+.home-multicard .multicard-row .multicard-card .multicard-bottom p {
+  font-size: 14px;
+  line-height: 22px;
 }
 
 /*# sourceMappingURL=styles.css.map */
